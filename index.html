@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootLand - Premium Bootstrap Templates</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span>Boot</span>Land</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#templates">Templates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary ms-lg-3" href="#pricing">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Beautiful Bootstrap Templates That Convert</h1>
+                    <p class="lead">Launch your website faster with our professionally designed, fully responsive Bootstrap templates.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Mobile-optimized for all devices</li>
+                        <li><i class="fas fa-check-circle"></i> Easy customization with clean code</li>
+                        <li><i class="fas fa-check-circle"></i> SEO-friendly structure</li>
+                    </ul>
+                    <div class="hero-btns">
+                        <a href="#templates" class="btn btn-primary">Explore Templates</a>
+                        <a href="#pricing" class="btn btn-outline-primary ms-3">View Pricing</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="hero.png" alt="Bootstrap Templates Preview" class="img-fluid animated">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates Showcase -->
+    <section id="templates" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Our Premium Templates</h2>
+                <p>Choose from our collection of high-converting landing page templates</p>
+            </div>
+            
+            <div class="template-selector mb-4">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <select id="template-dropdown" class="form-select">
+                            <option value="ecommerce">E-Commerce Template</option>
+                            <option value="agency">Agency Template</option>
+                            <option value="portfolio">Portfolio Template</option>
+                            <option value="saas">SaaS Template</option>
+                            <option value="startup">Startup Template</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="template-preview">
+                <div class="template-frame active" id="ecommerce-template">
+                    <div class="device-wrapper">
+                        <div class="device-mockup">
+                            <img src="ecommerce.png" alt="E-Commerce Template" class="img-fluid">
+                            <div class="template-overlay">
+                                <a href="#" class="btn btn-light btn-sm">Live Preview</a>
+                                <a href="#pricing" class="btn btn-primary btn-sm">Get This Template</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="template-info text-center mt-3">
+                        <h4>E-Commerce Landing Page</h4>
+                        <p>Perfect for online stores and product showcases</p>
+                    </div>
+                </div>
+                <div class="template-frame" id="agency-template">
+                    <div class="device-wrapper">
+                        <div class="device-mockup">
+                            <img src="agency.png" alt="Agency Template" class="img-fluid">
+                            <div class="template-overlay">
+                                <a href="#" class="btn btn-light btn-sm">Live Preview</a>
+                                <a href="#pricing" class="btn btn-primary btn-sm">Get This Template</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="template-info text-center mt-3">
+                        <h4>Agency Landing Page</h4>
+                        <p>Showcase your services and team with style</p>
+                    </div>
+                </div>
+                <div class="template-frame" id="portfolio-template">
+                    <div class="device-wrapper">
+                        <div class="device-mockup">
+                            <img src="creative.png" alt="Portfolio Template" class="img-fluid">
+                            <div class="template-overlay">
+                                <a href="#" class="btn btn-light btn-sm">Live Preview</a>
+                                <a href="#pricing" class="btn btn-primary btn-sm">Get This Template</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="template-info text-center mt-3">
+                        <h4>Portfolio Landing Page</h4>
+                        <p>Highlight your projects and creative work</p>
+                    </div>
+                </div>
+                <div class="template-frame" id="saas-template">
+                    <div class="device-wrapper">
+                        <div class="device-mockup">
+                            <img src="saas.png" alt="SaaS Template" class="img-fluid">
+                            <div class="template-overlay">
+                                <a href="#" class="btn btn-light btn-sm">Live Preview</a>
+                                <a href="#pricing" class="btn btn-primary btn-sm">Get This Template</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="template-info text-center mt-3">
+                        <h4>SaaS Landing Page</h4>
+                        <p>Ideal for software and subscription services</p>
+                    </div>
+                </div>
+                <div class="template-frame" id="startup-template">
+                    <div class="device-wrapper">
+                        <div class="device-mockup">
+                            <img src="/api/placeholder/800/450" alt="Startup Template" class="img-fluid">
+                            <div class="template-overlay">
+                                <a href="#" class="btn btn-light btn-sm">Live Preview</a>
+                                <a href="#pricing" class="btn btn-primary btn-sm">Get This Template</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="template-info text-center mt-3">
+                        <h4>Startup Landing Page</h4>
+                        <p>Perfect for launching your new business</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="responsive-preview text-center mt-5">
+                <h5>See how it looks on different devices</h5>
+                <div class="device-buttons">
+                    <button class="btn btn-sm btn-outline-secondary active" data-device="desktop">
+                        <i class="fas fa-desktop"></i> Desktop
+                    </button>
+                    <button class="btn btn-sm btn-outline-secondary" data-device="tablet">
+                        <i class="fas fa-tablet-alt"></i> Tablet
+                    </button>
+                    <button class="btn btn-sm btn-outline-secondary" data-device="mobile">
+                        <i class="fas fa-mobile-alt"></i> Mobile
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>What Our Customers Say</h2>
+                <p>Join hundreds of satisfied customers who love our templates</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The templates are not only visually stunning but also incredibly easy to customize. We launched our new site in half the time we expected. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <img src="Sarah.png" alt="Sarah Johnson" class="rounded-circle">
+                            <div>
+                                <h5>Sarah Johnson</h5>
+                                <span>Marketing Director, TechStart</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"As a web developer, I appreciate the clean, well-structured code. These templates make my workflow so much more efficient, and my clients absolutely love the results!"</p>
+                        <div class="testimonial-author">
+                            <img src="Michael.png" alt="Michael Chen" class="rounded-circle">
+                            <div>
+                                <h5>Michael Chen</h5>
+                                <span>Freelance Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"The mobile responsiveness is flawless. Our conversion rates increased by 60% after switching to BootLand templates. Worth every penny and then some!"</p>
+                        <div class="testimonial-author">
+                            <img src="Sarah.png" alt="Jessica Miller" class="rounded-circle">
+                            <div>
+                                <h5>Jessica Miller</h5>
+                                <span>CEO, GrowthPlus</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Simple, Transparent Pricing</h2>
+                <p>Choose the perfect plan for your business needs</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h5>Single Template</h5>
+                            <div class="price">$49</div>
+                            <p>One-time payment</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> 1 Premium Template</li>
+                                <li><i class="fas fa-check"></i> 6 Months Support</li>
+                                <li><i class="fas fa-check"></i> Free Updates</li>
+                                <li><i class="fas fa-check"></i> Documentation Included</li>
+                                <li class="feature-disabled"><i class="fas fa-times"></i> Future Templates</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn btn-outline-primary btn-block">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h5>Bundle Pack</h5>
+                            <div class="price">$99</div>
+                            <p>One-time payment</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> 3 Premium Templates</li>
+                                <li><i class="fas fa-check"></i> 1 Year Support</li>
+                                <li><i class="fas fa-check"></i> Free Updates</li>
+                                <li><i class="fas fa-check"></i> Documentation Included</li>
+                                <li class="feature-disabled"><i class="fas fa-times"></i> Future Templates</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn btn-primary btn-block">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h5>Full Access</h5>
+                            <div class="price">$249</div>
+                            <p>One-time payment</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> All Premium Templates</li>
+                                <li><i class="fas fa-check"></i> Lifetime Support</li>
+                                <li><i class="fas fa-check"></i> Free Updates</li>
+                                <li><i class="fas fa-check"></i> Documentation Included</li>
+                                <li><i class="fas fa-check"></i> Future Templates</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#" class="btn btn-outline-primary btn-block">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Get In Touch</h2>
+                <p>Have questions? We're here to help!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h4>How We Can Help</h4>
+                        <p>Whether you need assistance choosing the right template or have technical questions, our team is ready to support you.</p>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5>Email Us</h5>
+                                <p>support@bootland.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h5>Call Us</h5>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5>Visit Us</h5>
+                                <p>123 Template Street, Web City, CA 94103</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="businessType" class="form-label">Business Type</label>
+                                <select class="form-select" id="businessType" required>
+                                    <option value="" selected disabled>Select your business type</option>
+                                    <option value="agency">Agency</option>
+                                    <option value="ecommerce">E-Commerce</option>
+                                    <option value="saas">SaaS</option>
+                                    <option value="personal">Personal/Portfolio</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-info">
+                        <h3><span>Boot</span>Land</h3>
+                        <p>Creating beautiful, responsive websites has never been easier. Our premium Bootstrap templates help you launch faster and convert better.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-links">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#templates">Templates</a></li>
+                            <li><a href="#testimonials">Reviews</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-links">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-newsletter">
+                        <h4>Subscribe</h4>
+                        <p>Get the latest updates, templates, and special offers straight to your inbox.</p>
+                        <form>
+                            <input type="email" placeholder="Your email">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2025 <strong><span>BootLand</span></strong>. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top" class="btn btn-primary back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
